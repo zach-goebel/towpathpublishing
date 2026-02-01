@@ -104,3 +104,10 @@ section {
     grid-template-columns: 1fr;
   }
 }
+
+.section-divider {
+  width: 100%;
+  border: none;
+  border-top: 1px solid rgba(0, 0, 0, 0.15);
+  margin: 4rem 0;
+}
