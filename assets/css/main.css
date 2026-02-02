@@ -51,6 +51,18 @@ main {
   align-items: start;
 }
 
+.featured-book .section-title {
+  grid-column: 1 / -1;
+  margin: 0 0 1.5rem;
+  font-size: 1.25rem;
+  letter-spacing: 0.02em;
+}
+
+.book-info h3 {
+  margin-top: 0;
+  font-size: 2rem;
+}
+
 .featured-book img {
   max-width: 100%;
   box-shadow: 0 10px 30px rgba(0,0,0,0.15);
@@ -102,6 +114,10 @@ section {
 @media (max-width: 800px) {
   .featured-book {
     grid-template-columns: 1fr;
+  }
+
+  .featured-book .section-title {
+    margin-bottom: 1rem;
   }
 }
 
