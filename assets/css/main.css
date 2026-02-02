@@ -48,7 +48,7 @@ main {
   grid-template-columns: 1fr 1.2fr;
   gap: 2rem;
   margin-bottom: 4rem;
-  align-items: center;
+  align-items: start;
 }
 
 .featured-book img {
