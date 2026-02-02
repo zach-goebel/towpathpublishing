@@ -17,6 +17,10 @@ body {
   line-height: 1.6;
 }
 
+.book-info h3 {
+  margin-top: 0;
+}
+
 h2 {
   font-size: 1.25rem;
   margin-bottom: 1.5rem;
