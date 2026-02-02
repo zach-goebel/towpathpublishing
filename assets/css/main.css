@@ -44,6 +44,10 @@ h1 {
 .tagline {
   color: var(--muted);
   font-style: italic;
+
+  max-width: 42rem;
+  margin: 0 auto;
+  text-align: center;
 }
 
 main {
